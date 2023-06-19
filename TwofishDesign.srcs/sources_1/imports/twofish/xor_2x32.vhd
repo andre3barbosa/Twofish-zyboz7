@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity xor_2x32 is
+port(a,b : in std_logic_vector(31 downto 0);
+     result : out std_logic_vector(31 downto 0));
+end xor_2x32;
+
+architecture behavior of xor_2x32 is
+component xor_2x1
+	PORT(a,b : in std_logic;
+             result : out std_logic);
+END component;
+
+begin 
+aa: for i in 0 to 31 generate
+    	bb: xor_2x1 port map(a(i),b(i),result(i));
+    end generate;
+end behavior;
+
+
+
