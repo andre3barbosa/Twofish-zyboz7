@@ -2,7 +2,7 @@
  * TwofishAPI.h
  *
  *  Created on: Jun 17, 2023
- *      Author: carlos
+ *      Author: carlos & andre
  */
 
 #ifndef SRC_TWOFISHAPI_H_
