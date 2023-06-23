@@ -10,7 +10,7 @@ There are three folders in this repo:
    This folder contains the source code for the application running in the petalinux image.
 
    # Twofish Design
-  This folder contains the source code about the block design and IP creation.
+   This folder contains the source code about the block design and IP creation.
    
    # TwofishVitisIdeApp
    This folder contains the source code for the application running in baremetal using vitis ide platform.
