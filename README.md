@@ -14,3 +14,7 @@ There are three folders in this repo:
    
    # TwofishVitisIdeApp
    This folder contains the source code for the application running in baremetal using vitis ide platform.
+
+##
+
+For more information see the doc folder which contains detailed project documentation.
